@@ -1,7 +1,6 @@
 package br.com.raphasil.reactive.example.sync;
 
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.logging.Logger;
@@ -9,23 +8,6 @@ import java.util.logging.Logger;
 import br.com.raphasil.reactive.example.BaseExample;
 
 public class SyncExampleB extends BaseExample {
-	
-	private final List<String> desserts = Arrays.asList(
-			"Biscuits / cookies",
-			"Cakes",
-			"Chocolates",
-			"Candies",
-			"Custards",
-			"Puddings",
-			"Deep-fried desserts",
-			"Frozen desserts",
-			"Jellied desserts",
-			"Pastries",
-			"Pies",
-			"Cobblers",
-			"Clafoutis",
-			"Sweet soups"
-	);
 	
 	public SyncExampleB(Logger logger) {		
 		 super(logger);
